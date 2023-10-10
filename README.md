@@ -42,11 +42,10 @@ resource \
 #### GPT Results as Proposals
 **STEP1** \
 The ``automatic_data_generation/I_gpt_proposal.py`` script generates additional triples for each document in the original dataset. \
-Example: \
-``
+Example: 
+```
 python I_gpt_proposal.py -i ./resource/DocRED/train_annotated.json -o docred_train_gpt
-``
-
+```
 Arguments: 
   + -i, --input: Path to the input file.
   + -o, --output: Path to the output file.
@@ -55,11 +54,10 @@ The ``automatic_data_generation/I_gpt_proposal_more.py`` script generates more a
 
 **STEP2** \
 The ``automatic_data_generation/II_gpt_triples_postprocess.py`` script filters undesired or illegal triples. \
-Example: \
-``
+Example: 
+```
 python II_gpt_triples_postprocess.py -i docred_train_gpt -o docred_train_gpt_postprocess
-``
-
+```
 Arguments: 
   + -i, --input: Path to the input file.
   + -o, --output: Path to the output file.
@@ -67,22 +65,20 @@ Arguments:
 #### NLI as an Annotator
 **STEP1** \
 The ``automatic_data_generation/III_nli_annotator.py`` script calculates the entailment scores used for predefined relation types. \
-Example: \
-``
+Example: 
+```
 python III_nli_annotator.py -i docred_train_gpt_postprocess -o docred_train_nli
-``
-
+```
 Arguments: 
   + -i, --input: Path to the input file.
   + -o, --output: Path to the output file.
 
 **STEP2** \
 The ``automatic_data_generation/IV_nli_score_postprocess.py`` script post-processes the entailment scores to ensure the high quality of newly produced relation triples. \
-Example: \
-``
+Example: 
+```
 python IV_nli_score_postprocess.py -origin ./resource/DocRED/train_annotated.json -i docred_train_nli -o ./resource/enhancement_data/docred_train_data_enhancement.json
-``
-
+```
 Arguments: 
   + -origin, --origin: Path to the original file.
   + -i, --input: Path to the input file.
