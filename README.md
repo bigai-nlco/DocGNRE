@@ -1,9 +1,7 @@
 # DocGNRE
-***
 This repo contains the code used for the EMNLP 2023 paper "Semi-automatic Data Enhancement for Document-Level Relation Extraction with Distant Supervision from Large Language Models".
 
 ## Requirements
-***
 + Python 3.8
 + Python packages
   + PyTorch 2.0+
@@ -39,7 +37,6 @@ resource \
 │   └── train_revised.json 
 
 ## Getting Started
-***
 
 ### Automatic Data Generation
 #### GPT Results as Proposals
@@ -172,8 +169,6 @@ Generated input example:
 ```
 
 ## Citation
-***
 
 ## Acknowledgements
-***
 The codebase of this repo is extended from [DREEAM](https://github.com/YoumiMa/dreeam)
