@@ -1,0 +1,96 @@
+P6	The head of the executive power of the governmental body sub. is obj.
+P17	The sovereign state of this item sub. is obj.
+P19	The birth location of the person, animal or fictional character sub. is obj.
+P20	The death location of the person, animal or fictional character sub. is obj.
+P22	The father of sub. is obj.
+P25	The mother of sub. is obj.
+P26	The spouse of sub. is obj.
+P27	obj. is a country that recognizes sub. as its citizen
+P30	obj. is the continent of which sub. is a part
+P31	obj. is that class of which sub. is a particular example and member. (sub. typically an individual member with proper name label)
+P35	obj. is the official with the highest formal authority in the country/state sub.
+P36	obj. is the primary city of the country/state sub.
+P37	obj. is the language designated as official by sub.
+P39	sub. currently or formerly holds the position or public office obj.
+P40	sub. has obj. as their offspring son or daughter
+P50	The main creator(s) of the written work sub. is(are) obj.
+P54	The sports team or club that sub. represents or formerly represented is obj.
+P57	The director of this film, TV-series, stageplay or video game is obj.
+P58	The author(s) of the screenplay or script for this work sub. is(are) obj.
+P69	The educational institution attended by sub. is obj.
+P86	The person(s) who wrote the music sub. is(are) obj.
+P102	The political party of which this politician sub. is or has been a member is obj.
+P108	The person or organization for which sub. works or worked is obj.
+P112	The founder or co-founder of this organization, religion or place sub. is obj.
+P118	The league in which the team or player sub. plays or has played in is obj.
+P123	The organization or person responsible for publishing books, periodicals, games or software sub. is obj.
+P127	The owner of sub. is obj.
+P131	sub. is located on the territory of the following administrative entity obj.
+P136	The creative work sub.'s genre is obj.
+P137	The person or organization that operates the equipment, facility, or service sub. is obj.
+P140	The religion of a person, organization or religious building, or associated with sub. is obj.
+P150	The direct subdivisions of an administrative territorial entity sub. has obj.
+P155	The immediately prior item in some series of which sub. is part is obj.
+P156	The immediately following item in some series of which sub. is part is obj.
+P159	The specific location where sub.'s headquarters is or has been situated is obj.
+P161	The actor performing live sub. for a camera or audience has obj.
+P162	The producer(s) of this film or music work sub. is(are) obj.
+P166	The award or recognition received by a person, organization or creative work sub. is obj.
+P170	The maker of a creative work sub. is obj.
+P171	The closest parent taxon of the taxon sub. is obj.
+P172	sub.'s ethnicity is obj.
+P175	The performer involved in the performance or the recoding of the work sub. is obj.
+P176	The manufacturer or producer of the product sub. is obj.
+P178	The organization or person that developed sub. is obj.
+P179	The series which contains sub. is obj.
+P190	sub. and obj. are twin towns, sister cities, twinned municipalities
+P194	The legislative body governing sub. is obj.
+P205	The country that have drainage to/from or border the body of water sub. has obj.
+P206	sub. is located in or next to body of water obj.
+P241	The branch to which the military unit, award, office, or person sub. belongs is obj.
+P264	The brand and trademark associated with the marketing of subject music recordings and music videos sub. is obj.
+P272	The company that produced this film, audio or performing arts work sub. is obj.
+P276	The location of the item, physical object or event sub. is within is obj.
+P279	All instances of sub. are instances of obj.
+P355	The subsidiary of a company or organization sub. has obj.
+P361	obj. has part or parts sub.
+P364	The language in which the film or a performance work sub. was originally created is obj.
+P400	The platform for which the work sub. has been developed or released / specific platform version fo the software sub. developed is obj.
+P403	The body of water to which the watercourse sub. drains is obj.
+P449	The network(s) the radio or television show sub. was originally aired on has obj.
+P463	The organization or club to which sub. belongs is obj.
+P488	The presiding member of the organization, group or body sub. is obj.
+P495	The country of origin of the creative work sub. is obj.
+P527	sub. has part or parts obj.
+P551	The place where the person sub. is, or has been, resident is obj.
+P569	The date on which sub. was born is obj.
+P570	The date on which sub. died is obj.
+P571	The date or point in time when the organization/subject sub. was founded/created is obj.
+P576	The date or point in time on which the organization sub. was dissolved/disappeared or the building sub. demolished is obj.
+P577	The data or point in time the work sub. is first published or released is obj.
+P580	The time the item sub. begins to exist or the statement sub. starts being valid is obj.
+P582	The time the item sub. ceases to exist or the statement sub. stops being valid is obj.
+P585	The time and date sub. took place, existed or the statement sub. was true is obj.
+P607	The battles, wars or other military engagements in which the person or item sub. participated is obj.
+P674	The characters which appear in sub. has obj.
+P676	The author of song lyrics sub. is obj.
+P706	sub. is located on the specified landform obj.
+P710	The person, group of people or organization that actively takes/took part in the event sub. has obj.
+P737	The person, idea sub. is informed by obj.
+P740	The location where the group or organization sub. was formed is obj.
+P749	The parent organization of the organization sub. is obj.
+P800	The notable scientific, artistic or literary work, or other work of significance among sub.’s works is obj.
+P807	sub. was founded or started by separating from identified object obj.
+P840	The narrative of the work sub. is set in the location obj.
+P937	The location where persons or organization sub. were actively participating in employment, business or other work is obj.
+P1001	The institution, law or public office sub. belongs to or has power over or applies to the country, state or municipality obj.
+P1056	The material or product produced by the government agency, business, industry, facility, or process sub. is obj.
+P1198	The portion of the workforce population that is not employed of sub. is obj.
+P1336	The administrative divisions that claim control of the given area sub. is obj.
+P1344	The event that the person or the organization sub. was a participant in is obj.
+P1365	The person or item sub. replaces obj.
+P1366	The person or item obj. replaces sub.
+P1376	sub. is capital of obj.
+P1412	The language(s) that the person sub. speaks or writes is obj.
+P1441	The work in which the fictional entity or historical person sub. is present is obj.
+P3373	sub. has obj. as their sibling
