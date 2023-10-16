@@ -42,7 +42,8 @@ resource \
 #### GPT Results as Proposals
 **STEP1** \
 The ``automatic_data_generation/I_gpt_proposal.py`` script generates additional triples for each document in the original dataset. \
-Example: 
+This code requires OpenAI's model APIs.  Accessing the API requires an API key, which you can obtain by creating an account and going to the official website. \
+Example to run (``cd automatic_data_generation``): 
 ```
 python I_gpt_proposal.py -i ./resource/DocRED/train_annotated.json -o docred_train_gpt
 ```
@@ -54,7 +55,7 @@ The ``automatic_data_generation/I_gpt_proposal_more.py`` script generates more a
 
 **STEP2** \
 The ``automatic_data_generation/II_gpt_triples_postprocess.py`` script filters undesired or illegal triples. \
-Example: 
+Example to run: 
 ```
 python II_gpt_triples_postprocess.py -i docred_train_gpt -o docred_train_gpt_postprocess
 ```
@@ -65,7 +66,7 @@ Arguments:
 #### NLI as an Annotator
 **STEP1** \
 The ``automatic_data_generation/III_nli_annotator.py`` script calculates the entailment scores used for predefined relation types. \
-Example: 
+Example to run: 
 ```
 python III_nli_annotator.py -i docred_train_gpt_postprocess -o docred_train_nli
 ```
@@ -75,7 +76,7 @@ Arguments:
 
 **STEP2** \
 The ``automatic_data_generation/IV_nli_score_postprocess.py`` script post-processes the entailment scores to ensure the high quality of newly produced relation triples. \
-Example: 
+Example to run: 
 ```
 python IV_nli_score_postprocess.py -origin ./resource/DocRED/train_annotated.json -i docred_train_nli -o ./resource/enhancement_data/docred_train_data_enhancement.json
 ```
@@ -83,6 +84,11 @@ Arguments:
   + -origin, --origin: Path to the original file.
   + -i, --input: Path to the input file.
   + -o, --output: Path to the output file.
+
+**One command to generate the required data**
+```commandline
+bash run.sh
+```
 
 ### Training
 The codebase of this repo is extended from [DREEAM](https://github.com/YoumiMa/dreeam). 
@@ -167,4 +173,4 @@ Generated input example:
 ## Citation
 
 ## Acknowledgements
-The codebase of this repo is extended from [DREEAM](https://github.com/YoumiMa/dreeam)
+The codebase of this repo is extended from [DREEAM](https://github.com/YoumiMa/dreeam).
