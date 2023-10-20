@@ -14,7 +14,11 @@ This repo contains the code used for the EMNLP 2023 paper "Semi-automatic Data E
 ## Dataset
 The [DocRED](https://github.com/thunlp/DocRED/tree/master/data) and [Re-DocRED](https://github.com/tonytan48/Re-DocRED/tree/main/data) 
 dataset can be downloaded following the instructions at corresponding links. 
-``enhancement_data`` is the enhanced dataset.
+
+``enhancement_data`` is the enhanced dataset and can be obtained with the following command. 
+```commandline
+wget https://bigai-nlco.s3.ap-southeast-1.amazonaws.com/DocGNRE/enhancement_data.zip
+```
 The expected structure of files is:
 
 resource \
