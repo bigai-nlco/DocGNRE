@@ -6,12 +6,12 @@ NAME=${TYPE}_lambda${LAMBDA}
 
 python run.py --do_train \
 --data_dir resource/Re-DocRED \
---transformer_type roberta \
---model_name_or_path roberta-large \
+--transformer_type bert \
+--model_name_or_path bert-base-cased \
 --display_name  ${NAME} \
---train_file resource/enhancement_data/re_docred_train_data_enhancement.json \
---dev_file resource/Re-DocRED/dev_revised.json \
---test_file resource/enhancement_data/re_docred_test_data_enhancement.json \
+--train_file ../resource/enhancement_data/re_docred_train_data_enhancement.json \
+--dev_file ../resource/Re-DocRED/dev_revised.json \
+--test_file ../resource/enhancement_data/re_docred_test_data_enhancement.json \
 --save_path output/${NAME} \
 --train_batch_size 16 \
 --test_batch_size 16 \
