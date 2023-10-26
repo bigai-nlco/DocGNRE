@@ -170,4 +170,7 @@ Generated input example:
 ## Citation
 
 ## Acknowledgements
+This work is supported in part by the National Key R&D Program of China (2021ZD0150200) and the National Natural Science Foundation of China (62376031).
+
+
 The codebase of this repo is extended from [DREEAM](https://github.com/YoumiMa/dreeam).
