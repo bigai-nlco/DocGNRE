@@ -168,9 +168,18 @@ Generated input example:
 ```
 
 ## Citation
+```bibtex
+@inproceedings{docgnre,
+    title = "Semi-automatic Data Enhancement for Document-Level Relation Extraction with Distant Supervision from Large Language Models",
+    author = "Li, Junpeng and Jia, Zixia and Zheng, Zilong",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    publisher = "Association for Computational Linguistics"
+}
+```
+
+
 
 ## Acknowledgements
-This work is supported in part by the National Key R&D Program of China (2021ZD0150200) and the National Natural Science Foundation of China (62376031).
-
-
 The codebase of this repo is extended from [DREEAM](https://github.com/YoumiMa/dreeam).
